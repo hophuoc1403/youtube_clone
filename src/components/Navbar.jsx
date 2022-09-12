@@ -27,6 +27,7 @@ function Navbar() {
       >
         <img src={logo} alt="logo" height={45} />
       </Link>
+      <h1>Phước's Dark youtube</h1>
       <SearchBar />
     </Stack>
   );
