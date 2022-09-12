@@ -27,7 +27,12 @@ function Navbar() {
       >
         <img src={logo} alt="logo" height={45} />
       </Link>
-      <h1 style={{ textShadow: "-5px 5px 0px rgba(0, 0, 0, 0.7)" }}>
+      <h1
+        style={{
+          color: "white",
+          textShadow: "-5px 5px 0px rgba(0, 0, 0, 0.7)",
+        }}
+      >
         Phước's Dark youtube
       </h1>
       <SearchBar />
